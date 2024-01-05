@@ -51,14 +51,15 @@
       </div>
 
       <!-- sisi kanan -->
-      <div class="flex items-center flex-row gap-3 ">
-        <div class="hidden md:block order-1"><a href="index.html">
-          <button
-            class="w-[105px] h-[38px] text-[16px] font-semibold bg-[#005555] hidden rounded-[24px] text-white hover:text-[#005555] border-[1px] border-[#005555] hover:bg-[#F1F3F9] cursor-pointer hover:transition-all ease-in-out duration-1000 md:block"
-          >
-            Button
-          </button>
-        </a>
+      <div class="flex items-center flex-row md:flex-row-reverse gap-3">
+        <div class="hidden md:block order-1">
+          <a href="index.html">
+            <button
+              class="w-[105px] h-[38px] text-[16px] font-semibold bg-[#005555] hidden rounded-[24px] text-white hover:text-[#005555] border-[1px] border-[#005555] hover:bg-[#F1F3F9] cursor-pointer hover:transition-all ease-in-out duration-1000 md:block"
+            >
+              Button
+            </button>
+          </a>
         </div>
 
         <svg
@@ -67,7 +68,7 @@
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="block md:hidden "
+          class="block md:hidden"
         >
           <path
             d="M12 22C13.1 22 14 21.1 14 20H10C10 21.1 10.89 22 12 22ZM18 16V11C18 7.93 16.36 5.36 13.5 4.68V4C13.5 3.17 12.83 2.5 12 2.5C11.17 2.5 10.5 3.17 10.5 4V4.68C7.63 5.36 6 7.92 6 11V16L4 18V19H20V18L18 16Z"
@@ -112,7 +113,8 @@
             <image id="image0_1_37010" width="240" height="240" />
           </defs>
         </svg>
-        <span class="text-[14px] font-semibold hidden md:block whitespace-nowrap cursor-pointer"
+        <span
+          class="text-[14px] font-semibold hidden md:block whitespace-nowrap cursor-pointer"
           >Chance Vaccaro</span
         >
       </div>
@@ -156,7 +158,7 @@
         class="pt-4 flex items-center gap-2 overflow-x-auto whitespace-nowrap md:flex-wrap"
       >
         <button
-          class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#3A354114] border-[#E0E0E0] border-[1px] hover:bg-slate-200 "
+          class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#3A354114] border-[#E0E0E0] border-[1px] hover:bg-slate-200"
         >
           Teknologi
         </button>
@@ -200,13 +202,16 @@
 
     <!-- Bacaan Populer -->
     <div class="flex flex-col md:flex-row-reverse justify-between">
-      <div class="md:flex md:flex-col md:max-w-[25%] md:pl-2 md:sticky md:top-0">
+      <div
+        class="md:flex md:flex-col md:max-w-[25%] md:pl-2 md:sticky md:top-0"
+      >
         <section class="md:mt-[-70px] md:flex flex-col">
           <h1 class="text-[16px] font-semibold py-3">Bacaan Populer</h1>
           <div class="flex flex-col gap-3">
             <!-- CARD 1 -->
             <div
-              class="w-full h-[119px] bg-[#FDF0CC] rounded-[8px] p-[16px] flex flex-col justify-evenly shadow-sm md:p-4 md:h-[146px] md:rounded-[16px] cursor-pointer"            >
+              class="w-full h-[119px] bg-[#FDF0CC] rounded-[8px] p-[16px] flex flex-col justify-evenly shadow-sm md:p-4 md:h-[146px] md:rounded-[16px] cursor-pointer"
+            >
               <!-- Card Header -->
               <div class="flex items-center gap-2">
                 <div
@@ -219,7 +224,10 @@
                 </div>
               </div>
               <!-- Card body -->
-              <div id="limitedText7" class="text-[12px] font-semibold py-2 pt-3 text-[#1D2433]">
+              <div
+                id="limitedText7"
+                class="text-[12px] font-semibold py-2 pt-3 text-[#1D2433]"
+              >
                 Mendekati AI yang Mampu Belajar Sendiri: Pengembangan Algoritma
                 Pembelajaran Mesin yang Efektif
               </div>
@@ -289,7 +297,10 @@
                 </div>
               </div>
               <!-- Card body -->
-              <div id="limitedText8" class="text-[12px] font-semibold py-2 pt-3 text-[#1D2433]">
+              <div
+                id="limitedText8"
+                class="text-[12px] font-semibold py-2 pt-3 text-[#1D2433]"
+              >
                 Perkembangan Terbaru dalam Teknologi 5G: Masa Depan Koneksi
                 Internet yang Lebih Cepat dan Andal
               </div>
@@ -359,7 +370,10 @@
                 </div>
               </div>
               <!-- Card body -->
-              <div id="limitedText9" class="text-[12px] font-semibold py-2 pt-3 text-[#1D2433]">
+              <div
+                id="limitedText9"
+                class="text-[12px] font-semibold py-2 pt-3 text-[#1D2433]"
+              >
                 Dampak Stres pada Kesehatan Mental dan Strategi Mengelolanya
                 dalam Kehidupan Sehari-hari
               </div>
@@ -412,18 +426,14 @@
                 </div>
               </div>
             </div>
-
-            
           </div>
         </section>
 
         <!-- Rekomnedasi Penulis -->
-          <section class="hidden md:block md:mb-[100px]">
-            <div class="text-[16px] font-semibold py-3">
-              Rekomendasi Penulis
-            </div>
-            <div class="flex justify-between pb-6 flex-col">
-            <div class="flex flex-row justify-between">
+        <section class="hidden md:block md:mb-[100px] md:py-4">
+          <div class="text-[16px] font-semibold py-3">Rekomendasi Penulis</div>
+          <div class="flex justify-between flex-col">
+            <div class="flex flex-row justify-between pb-3">
               <div class="flex items-center">
                 <svg
                   width="28"
@@ -477,7 +487,7 @@
               </div>
             </div>
 
-            <div class="flex flex-row justify-between">
+            <div class="flex flex-row justify-between pb-3">
               <div class="flex items-center">
                 <svg
                   width="28"
@@ -531,7 +541,7 @@
               </div>
             </div>
 
-            <div class="flex flex-row justify-between">
+            <div class="flex flex-row justify-between pb-3">
               <div class="flex items-center justify-between">
                 <svg
                   width="28"
@@ -584,100 +594,33 @@
                 </button>
               </div>
             </div>
-            </div>
-          </section>
+          </div>
+        </section>
       </div>
-        <!-- Semua Bacaan -->
-        <div>
-          <section class="order-2">
-            <div class="text-[16px] font-semibold ">
-              <div class="font-semibold md:hidden py-4">Semua Bacaan</div>
-              <!-- Card Wrapper -->
-                <!-- CARD 1 -->
-                <div class=" min-h-[119px] md:max-w-[600px] lg:max-w-[800px] md:py-5">
-                  <div class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer">
-                    <img
-                      src="./assets/images/IoT.avif"
-                      class="w-[100px] h-[119px] md:w-[150px]"
-                    />
-                    <div class="flex flex-col justify-between flex-grow">
-                      <div class="text-[#4A505C] text-[11px] font-medium">
-                        09 Jun 2023
-                      </div>
-                      <div id="limitedText1" class="text-[12px] font-semibold">
-                        Internet of Things (IoT) dan Masa Depan Keterhubungan dalam Kehidupan Sehari-hari
-                      </div>
-                      <div class="flex items-center">
-                        <svg
-                          width="28"
-                          height="28"
-                          viewBox="0 0 44 32"
-                          fill=""
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                        >
-                          <rect
-                            x="6.5"
-                            y="0.5"
-                            width="31"
-                            height="31"
-                            rx="15.5"
-                            fill="url(#005555)"
-                          />
-                          <rect
-                            x="6.5"
-                            y="0.5"
-                            width="31"
-                            height="31"
-                            rx="15.5"
-                            stroke="#E1E6EF"
-                          />
-                          <defs>
-                            <pattern
-                              id="pattern0"
-                              patternContentUnits="objectBoundingBox"
-                              width="1"
-                              height="1"
-                            >
-                              <use
-                                xlink:href="#image0_1_37010"
-                                transform="scale(0.00416667)"
-                              />
-                            </pattern>
-                            <image id="image0_1_37010" width="240" height="240" />
-                          </defs>
-    
-                        </svg>
-                        <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                          >Kristin Watson</span
-                        >
-                      </div>
-                      <div class="flex justify-between items-end">
-                        <button
-                          class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
-                        >
-                          Media
-                        </button>
-                        <img
-                          src="./assets/images/save-instagram.png"
-                          class="h-4 w-4"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-              <!-- CARD 2 -->
-              <div class=" min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer" >
+      <!-- Semua Bacaan -->
+      <div>
+        <section class="order-2">
+          <div class="text-[16px] font-semibold">
+            <div class="font-semibold md:hidden py-4">Semua Bacaan</div>
+            <!-- Card Wrapper -->
+            <!-- CARD 1 -->
+            <div
+              class="min-h-[119px] md:max-w-[600px] lg:max-w-[800px] md:py-5"
+            >
+              <div
+                class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer"
+              >
                 <img
                   src="./assets/images/IoT.avif"
                   class="w-[100px] h-[119px] md:w-[150px]"
                 />
                 <div class="flex flex-col justify-between flex-grow">
                   <div class="text-[#4A505C] text-[11px] font-medium">
-                    02 Jun 2023
+                    09 Jun 2023
                   </div>
-                  <div id="limitedText2" class="text-[12px] font-semibold">
-                    Mengembangkan Keterampilan Berpikir Kritis melalui Pendidikan: Strategi dan Implementasi di Kelas
+                  <div id="limitedText1" class="text-[12px] font-semibold">
+                    Internet of Things (IoT) dan Masa Depan Keterhubungan dalam
+                    Kehidupan Sehari-hari
                   </div>
                   <div class="flex items-center">
                     <svg
@@ -718,7 +661,80 @@
                         </pattern>
                         <image id="image0_1_37010" width="240" height="240" />
                       </defs>
+                    </svg>
+                    <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                      >Kristin Watson</span
+                    >
+                  </div>
+                  <div class="flex justify-between items-end">
+                    <button
+                      class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
+                    >
+                      Media
+                    </button>
+                    <img
+                      src="./assets/images/save-instagram.png"
+                      class="h-4 w-4"
+                    />
+                  </div>
+                </div>
+              </div>
 
+              <!-- CARD 2 -->
+              <div
+                class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer"
+              >
+                <img
+                  src="./assets/images/IoT.avif"
+                  class="w-[100px] h-[119px] md:w-[150px]"
+                />
+                <div class="flex flex-col justify-between flex-grow">
+                  <div class="text-[#4A505C] text-[11px] font-medium">
+                    02 Jun 2023
+                  </div>
+                  <div id="limitedText2" class="text-[12px] font-semibold">
+                    Mengembangkan Keterampilan Berpikir Kritis melalui
+                    Pendidikan: Strategi dan Implementasi di Kelas
+                  </div>
+                  <div class="flex items-center">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 44 32"
+                      fill=""
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <rect
+                        x="6.5"
+                        y="0.5"
+                        width="31"
+                        height="31"
+                        rx="15.5"
+                        fill="url(#005555)"
+                      />
+                      <rect
+                        x="6.5"
+                        y="0.5"
+                        width="31"
+                        height="31"
+                        rx="15.5"
+                        stroke="#E1E6EF"
+                      />
+                      <defs>
+                        <pattern
+                          id="pattern0"
+                          patternContentUnits="objectBoundingBox"
+                          width="1"
+                          height="1"
+                        >
+                          <use
+                            xlink:href="#image0_1_37010"
+                            transform="scale(0.00416667)"
+                          />
+                        </pattern>
+                        <image id="image0_1_37010" width="240" height="240" />
+                      </defs>
                     </svg>
                     <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
                       >Cameron Williamson</span
@@ -739,7 +755,9 @@
               </div>
 
               <!-- CARD 3 -->
-              <div class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer">
+              <div
+                class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer"
+              >
                 <img
                   src="./assets/images/IoT.avif"
                   class="w-[100px] h-[119px] md:w-[150px]"
@@ -749,7 +767,8 @@
                     15 Agu 2023
                   </div>
                   <div id="limitedText3" class="text-[12px] font-semibold">
-                    Inovasi Teknologi Big Data: Menggali Wawasan dan Mendukung Pengambilan Keputusan yang Efektif
+                    Inovasi Teknologi Big Data: Menggali Wawasan dan Mendukung
+                    Pengambilan Keputusan yang Efektif
                   </div>
                   <div class="flex items-center">
                     <svg
@@ -790,7 +809,6 @@
                         </pattern>
                         <image id="image0_1_37010" width="240" height="240" />
                       </defs>
-
                     </svg>
                     <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
                       >Arlene McCoy</span
@@ -810,397 +828,404 @@
                 </div>
               </div>
 
-              <!-- Card 4 -->
-              <div class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer">
+              <div class="hidden md:block">
+                <!-- Card 4 -->
+                <div
+                  class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer"
+                >
+                  <img
+                    src="./assets/images/IoT.avif"
+                    class="w-[100px] h-[119px] md:w-[150px]"
+                  />
+                  <div class="flex flex-col justify-between flex-grow">
+                    <div class="text-[#4A505C] text-[11px] font-medium">
+                      27 Mar 2023
+                    </div>
+                    <div id="limitedText4" class="text-[12px] font-semibold">
+                      Desain Interior Ramah Lingkungan: Pendekatan Green Design
+                      dalam Menciptakan Ruang yang Berkelanjutan
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 44 32"
+                        fill=""
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <rect
+                          x="6.5"
+                          y="0.5"
+                          width="31"
+                          height="31"
+                          rx="15.5"
+                          fill="url(#005555)"
+                        />
+                        <rect
+                          x="6.5"
+                          y="0.5"
+                          width="31"
+                          height="31"
+                          rx="15.5"
+                          stroke="#E1E6EF"
+                        />
+                        <defs>
+                          <pattern
+                            id="pattern0"
+                            patternContentUnits="objectBoundingBox"
+                            width="1"
+                            height="1"
+                          >
+                            <use
+                              xlink:href="#image0_1_37010"
+                              transform="scale(0.00416667)"
+                            />
+                          </pattern>
+                          <image id="image0_1_37010" width="240" height="240" />
+                        </defs>
+                      </svg>
+                      <span
+                        class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                        >Chance Vaccaro</span
+                      >
+                    </div>
+                    <div class="flex justify-between items-end">
+                      <button
+                        class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
+                      >
+                        Media
+                      </button>
+                      <img
+                        src="./assets/images/save-instagram.png"
+                        class="h-4 w-4"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                  class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer"
+                >
+                  <img
+                    src="./assets/images/IoT.avif"
+                    class="w-[100px] h-[119px] md:w-[150px]"
+                  />
+                  <div class="flex flex-col justify-between flex-grow">
+                    <div class="text-[#4A505C] text-[11px] font-medium">
+                      23 Jan 2023
+                    </div>
+                    <div id="limitedText5" class="text-[12px] font-semibold">
+                      Pendidikan Karakter: Membangun Nilai-Nilai Etika dan Moral
+                      pada Anak-anak
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 44 32"
+                        fill=""
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <rect
+                          x="6.5"
+                          y="0.5"
+                          width="31"
+                          height="31"
+                          rx="15.5"
+                          fill="url(#005555)"
+                        />
+                        <rect
+                          x="6.5"
+                          y="0.5"
+                          width="31"
+                          height="31"
+                          rx="15.5"
+                          stroke="#E1E6EF"
+                        />
+                        <defs>
+                          <pattern
+                            id="pattern0"
+                            patternContentUnits="objectBoundingBox"
+                            width="1"
+                            height="1"
+                          >
+                            <use
+                              xlink:href="#image0_1_37010"
+                              transform="scale(0.00416667)"
+                            />
+                          </pattern>
+                          <image id="image0_1_37010" width="240" height="240" />
+                        </defs>
+                      </svg>
+                      <span
+                        class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                        >Darrell Steward</span
+                      >
+                    </div>
+                    <div class="flex justify-between items-end">
+                      <button
+                        class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
+                      >
+                        Media
+                      </button>
+                      <img
+                        src="./assets/images/save-instagram.png"
+                        class="h-4 w-4"
+                      />
+                    </div>
+                  </div>
+                  </div>
+
+                <!-- Card 6 -->
+                <div
+                  class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer"
+                >
+                  <img
+                    src="./assets/images/IoT.avif"
+                    class="w-[100px] h-[119px] md:w-[150px]"
+                  />
+                  <div class="flex flex-col justify-between flex-grow">
+                    <div class="text-[#4A505C] text-[11px] font-medium">
+                      13 Apr 2023
+                    </div>
+                    <div id="limitedText6" class="text-[12px] font-semibold">
+                      Peran Penting Kepercayaan Diri dalam Pengembangan Pribadi
+                      dan Profesional
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 44 32"
+                        fill=""
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <rect
+                          x="6.5"
+                          y="0.5"
+                          width="31"
+                          height="31"
+                          rx="15.5"
+                          fill="url(#005555)"
+                        />
+                        <rect
+                          x="6.5"
+                          y="0.5"
+                          width="31"
+                          height="31"
+                          rx="15.5"
+                          stroke="#E1E6EF"
+                        />
+                        <defs>
+                          <pattern
+                            id="pattern0"
+                            patternContentUnits="objectBoundingBox"
+                            width="1"
+                            height="1"
+                          >
+                            <use
+                              xlink:href="#image0_1_37010"
+                              transform="scale(0.00416667)"
+                            />
+                          </pattern>
+                          <image id="image0_1_37010" width="240" height="240" />
+                        </defs>
+                      </svg>
+                      <span
+                        class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                        >Savannah Nguyen</span
+                      >
+                    </div>
+                    <div class="flex justify-between items-end">
+                      <button
+                        class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
+                      >
+                        Media
+                      </button>
+                      <img
+                        src="./assets/images/save-instagram.png"
+                        class="h-4 w-4"
+                      />
+                    </div>
+                  </div>
+                </div>
                 
-                <img
-                  src="./assets/images/IoT.avif"
-                  class="w-[100px] h-[119px] md:w-[150px]"
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="md:hidden py-3">
+          <div class="text-[16px] font-semibold pb-6">Rekomendasi Penulis</div>
+          <div class="flex items-end justify-between pb-6">
+            <div class="flex items-center">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 44 32"
+                fill=""
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect
+                  x="6.5"
+                  y="0.5"
+                  width="31"
+                  height="31"
+                  rx="15.5"
+                  fill="url(#005555)"
                 />
-                <div class="flex flex-col justify-between flex-grow">
-                  <div class="text-[#4A505C] text-[11px] font-medium">
-                    27 Mar 2023
-                  </div>
-                  <div id="limitedText4" class="text-[12px] font-semibold">
-                    Desain Interior Ramah Lingkungan: Pendekatan Green Design dalam Menciptakan Ruang yang Berkelanjutan
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      width="28"
-                      height="28"
-                      viewBox="0 0 44 32"
-                      fill=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                    >
-                      <rect
-                        x="6.5"
-                        y="0.5"
-                        width="31"
-                        height="31"
-                        rx="15.5"
-                        fill="url(#005555)"
-                      />
-                      <rect
-                        x="6.5"
-                        y="0.5"
-                        width="31"
-                        height="31"
-                        rx="15.5"
-                        stroke="#E1E6EF"
-                      />
-                      <defs>
-                        <pattern
-                          id="pattern0"
-                          patternContentUnits="objectBoundingBox"
-                          width="1"
-                          height="1"
-                        >
-                          <use
-                            xlink:href="#image0_1_37010"
-                            transform="scale(0.00416667)"
-                          />
-                        </pattern>
-                        <image id="image0_1_37010" width="240" height="240" />
-                      </defs>
-
-                    </svg>
-                    <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                      >Chance Vaccaro</span
-                    >
-                  </div>
-                  <div class="flex justify-between items-end">
-                    <button
-                      class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
-                    >
-                      Media
-                    </button>
-                    <img
-                      src="./assets/images/save-instagram.png"
-                      class="h-4 w-4"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <!-- Card 5 -->
-              <div class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer">
-                <img
-                  src="./assets/images/IoT.avif"
-                  class="w-[100px] h-[119px] md:w-[150px]"
+                <rect
+                  x="6.5"
+                  y="0.5"
+                  width="31"
+                  height="31"
+                  rx="15.5"
+                  stroke="#E1E6EF"
                 />
-                <div class="flex flex-col justify-between flex-grow">
-                  <div class="text-[#4A505C] text-[11px] font-medium">
-                    23 Jan 2023
-                  </div>
-                  <div id="limitedText5" class="text-[12px] font-semibold">
-                    Pendidikan Karakter: Membangun Nilai-Nilai Etika dan Moral pada Anak-anak
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      width="28"
-                      height="28"
-                      viewBox="0 0 44 32"
-                      fill=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                    >
-                      <rect
-                        x="6.5"
-                        y="0.5"
-                        width="31"
-                        height="31"
-                        rx="15.5"
-                        fill="url(#005555)"
-                      />
-                      <rect
-                        x="6.5"
-                        y="0.5"
-                        width="31"
-                        height="31"
-                        rx="15.5"
-                        stroke="#E1E6EF"
-                      />
-                      <defs>
-                        <pattern
-                          id="pattern0"
-                          patternContentUnits="objectBoundingBox"
-                          width="1"
-                          height="1"
-                        >
-                          <use
-                            xlink:href="#image0_1_37010"
-                            transform="scale(0.00416667)"
-                          />
-                        </pattern>
-                        <image id="image0_1_37010" width="240" height="240" />
-                      </defs>
-
-                    </svg>
-                    <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                      >Darrell Steward</span
-                    >
-                  </div>
-                  <div class="flex justify-between items-end">
-                    <button
-                      class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
-                    >
-                      Media
-                    </button>
-                    <img
-                      src="./assets/images/save-instagram.png"
-                      class="h-4 w-4"
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_37010"
+                      transform="scale(0.00416667)"
                     />
-                  </div>
-                </div>
-              </div>
+                  </pattern>
+                  <image id="image0_1_37010" width="240" height="240" />
+                </defs>
+              </svg>
+              <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                >Aurellio</span
+              >
+            </div>
+            <div class="whitespace-nowrap">
+              <button
+                class="bg-white border-[#005555] text-[#005555] border-2 rounded-[24px] py-[4px] px-[16px] text-[12px] font-semibold hover:text-[#F1F3F9] hover:bg-[#005555] cursor-pointer hover:transition-all ease-in-out duration-1000"
+              >
+                Lihat Profil
+              </button>
+            </div>
+          </div>
 
-              <!-- Card 6 -->
-              <div class="min-w-full w-full flex gap-4 pb-4 md:pr-3 cursor-pointer">
-                <img
-                  src="./assets/images/IoT.avif"
-                  class="w-[100px] h-[119px] md:w-[150px]"
+          <div class="flex items-center justify-between pb-6">
+            <div class="flex items-center">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 44 32"
+                fill=""
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect
+                  x="6.5"
+                  y="0.5"
+                  width="31"
+                  height="31"
+                  rx="15.5"
+                  fill="url(#005555)"
                 />
-                <div class="flex flex-col justify-between flex-grow">
-                  <div class="text-[#4A505C] text-[11px] font-medium">
-                    13 Apr 2023
-                  </div>
-                  <div id="limitedText6" class="text-[12px] font-semibold">
-                    Peran Penting Kepercayaan Diri dalam Pengembangan Pribadi dan Profesional
-                  </div>
-                  <div class="flex items-center">
-                    <svg
-                      width="28"
-                      height="28"
-                      viewBox="0 0 44 32"
-                      fill=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                    >
-                      <rect
-                        x="6.5"
-                        y="0.5"
-                        width="31"
-                        height="31"
-                        rx="15.5"
-                        fill="url(#005555)"
-                      />
-                      <rect
-                        x="6.5"
-                        y="0.5"
-                        width="31"
-                        height="31"
-                        rx="15.5"
-                        stroke="#E1E6EF"
-                      />
-                      <defs>
-                        <pattern
-                          id="pattern0"
-                          patternContentUnits="objectBoundingBox"
-                          width="1"
-                          height="1"
-                        >
-                          <use
-                            xlink:href="#image0_1_37010"
-                            transform="scale(0.00416667)"
-                          />
-                        </pattern>
-                        <image id="image0_1_37010" width="240" height="240" />
-                      </defs>
-
-                    </svg>
-                    <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                      >Savannah Nguyen</span
-                    >
-                  </div>
-                  <div class="flex justify-between items-end">
-                    <button
-                      class="text-[10px] font-medium text-center py-[4px] px-[12px] rounded-[16px] bg-[#F8F9FC] border-[#E0E0E0] border-[1px]"
-                    >
-                      Media
-                    </button>
-                    <img
-                      src="./assets/images/save-instagram.png"
-                      class="h-4 w-4"
+                <rect
+                  x="6.5"
+                  y="0.5"
+                  width="31"
+                  height="31"
+                  rx="15.5"
+                  stroke="#E1E6EF"
+                />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_37010"
+                      transform="scale(0.00416667)"
                     />
-                  </div>
-                </div>
-              </div>
-
-
-              
-              </div>
+                  </pattern>
+                  <image id="image0_1_37010" width="240" height="240" />
+                </defs>
+              </svg>
+              <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                >Max</span
+              >
             </div>
-          </section>
+            <div class="whitespace-nowrap">
+              <button
+                class="bg-white border-[#005555] text-[#005555] border-2 rounded-[24px] py-[4px] px-[16px] text-[12px] font-semibold hover:text-[#F1F3F9] hover:bg-[#005555] cursor-pointer hover:transition-all ease-in-out duration-1000"
+              >
+                Lihat Profil
+              </button>
+            </div>
+          </div>
 
-          <section class="md:hidden">
-            <div class="text-[16px] font-semibold py-6">
-              Rekomendasi Penulis
+          <div class="flex items-center justify-between pb-6">
+            <div class="flex items-center justify-between">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 44 32"
+                fill=""
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect
+                  x="6.5"
+                  y="0.5"
+                  width="31"
+                  height="31"
+                  rx="15.5"
+                  fill="url(#005555)"
+                />
+                <rect
+                  x="6.5"
+                  y="0.5"
+                  width="31"
+                  height="31"
+                  rx="15.5"
+                  stroke="#E1E6EF"
+                />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_37010"
+                      transform="scale(0.00416667)"
+                    />
+                  </pattern>
+                  <image id="image0_1_37010" width="240" height="240" />
+                </defs>
+              </svg>
+              <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
+                >Theresa Webb</span
+              >
             </div>
-            <div class="flex items-end justify-between pb-6">
-              <div class="flex items-center">
-                <svg
-                  width="28"
-                  height="28"
-                  viewBox="0 0 44 32"
-                  fill=""
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <rect
-                    x="6.5"
-                    y="0.5"
-                    width="31"
-                    height="31"
-                    rx="15.5"
-                    fill="url(#005555)"
-                  />
-                  <rect
-                    x="6.5"
-                    y="0.5"
-                    width="31"
-                    height="31"
-                    rx="15.5"
-                    stroke="#E1E6EF"
-                  />
-                  <defs>
-                    <pattern
-                      id="pattern0"
-                      patternContentUnits="objectBoundingBox"
-                      width="1"
-                      height="1"
-                    >
-                      <use
-                        xlink:href="#image0_1_37010"
-                        transform="scale(0.00416667)"
-                      />
-                    </pattern>
-                    <image id="image0_1_37010" width="240" height="240" />
-                  </defs>
-                </svg>
-                <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                  >Aurellio</span
-                >
-              </div>
-              <div class="whitespace-nowrap">
-                <button
-                  class="bg-white border-[#005555] text-[#005555] border-2 rounded-[24px] py-[4px] px-[16px] text-[12px] font-semibold hover:text-[#F1F3F9] hover:bg-[#005555] cursor-pointer hover:transition-all ease-in-out duration-1000"
-                >
-                  Lihat Profil
-                </button>
-              </div>
+            <div class="">
+              <button
+                class="bg-white border-[#005555] text-[#005555] border-2 rounded-[24px] py-[4px] px-[16px] text-[12px] font-semibold hover:text-[#F1F3F9] hover:bg-[#005555] cursor-pointer hover:transition-all ease-in-out duration-1000 whitespace-nowrap"
+              >
+                Lihat Profil
+              </button>
             </div>
-
-            <div class="flex items-center justify-between pb-6">
-              <div class="flex items-center">
-                <svg
-                  width="28"
-                  height="28"
-                  viewBox="0 0 44 32"
-                  fill=""
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <rect
-                    x="6.5"
-                    y="0.5"
-                    width="31"
-                    height="31"
-                    rx="15.5"
-                    fill="url(#005555)"
-                  />
-                  <rect
-                    x="6.5"
-                    y="0.5"
-                    width="31"
-                    height="31"
-                    rx="15.5"
-                    stroke="#E1E6EF"
-                  />
-                  <defs>
-                    <pattern
-                      id="pattern0"
-                      patternContentUnits="objectBoundingBox"
-                      width="1"
-                      height="1"
-                    >
-                      <use
-                        xlink:href="#image0_1_37010"
-                        transform="scale(0.00416667)"
-                      />
-                    </pattern>
-                    <image id="image0_1_37010" width="240" height="240" />
-                  </defs>
-                </svg>
-                <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                  >Max</span
-                >
-              </div>
-              <div class="whitespace-nowrap">
-                <button
-                  class="bg-white border-[#005555] text-[#005555] border-2 rounded-[24px] py-[4px] px-[16px] text-[12px] font-semibold hover:text-[#F1F3F9] hover:bg-[#005555] cursor-pointer hover:transition-all ease-in-out duration-1000"
-                >
-                  Lihat Profil
-                </button>
-              </div>
-            </div>
-
-            <div class="flex items-center justify-between pb-6">
-              <div class="flex items-center justify-between">
-                <svg
-                  width="28"
-                  height="28"
-                  viewBox="0 0 44 32"
-                  fill=""
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <rect
-                    x="6.5"
-                    y="0.5"
-                    width="31"
-                    height="31"
-                    rx="15.5"
-                    fill="url(#005555)"
-                  />
-                  <rect
-                    x="6.5"
-                    y="0.5"
-                    width="31"
-                    height="31"
-                    rx="15.5"
-                    stroke="#E1E6EF"
-                  />
-                  <defs>
-                    <pattern
-                      id="pattern0"
-                      patternContentUnits="objectBoundingBox"
-                      width="1"
-                      height="1"
-                    >
-                      <use
-                        xlink:href="#image0_1_37010"
-                        transform="scale(0.00416667)"
-                      />
-                    </pattern>
-                    <image id="image0_1_37010" width="240" height="240" />
-                  </defs>
-                </svg>
-                <span class="font-semibold text-[12px] text-[#1D2433] pl-2"
-                  >Theresa Webb</span
-                >
-              </div>
-              <div class="">
-                <button
-                  class="bg-white border-[#005555] text-[#005555] border-2 rounded-[24px] py-[4px] px-[16px] text-[12px] font-semibold hover:text-[#F1F3F9] hover:bg-[#005555] cursor-pointer hover:transition-all ease-in-out duration-1000 whitespace-nowrap"
-                >
-                  Lihat Profil
-                </button>
-              </div>
-            </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
+    </div>
     <!-- Footer -->
     <footer
       class="border-t-[1px] border-[#E1E6EF] text-[10px] font-medium text-center py-2"
