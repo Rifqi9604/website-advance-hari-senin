@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     for (var i = 1; i < 10; i++) {
-      var limit = 20;
+      var limit = 28;
       var textElement = document.getElementById("limitedText" + i);
   
       if (textElement) {
