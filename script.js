@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    for (let i = 1; i < 10; i++) {
+    for (let i = 1; i <= 10000; i++) {
       let limit = 28;
       let textElement = document.getElementById("limitedText" + i);
   
@@ -16,22 +16,29 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.addEventListener('DOMContentLoaded', function() {
-    let saveButton = document.getElementById('saveButton');
-    let iconImage = document.getElementById('iconImage');
-
     // Daftar gambar yang akan digunakan
     let imageList = [
         "./assets/images/icon/save-instagram.png",
         "./assets/images/icon/save-instagram-clicked.png"
     ];
 
+    for (let i = 1; i <= 10000; i++) {
+        let saveButton = document.getElementById(`saveButton${i}`);
+        let iconImage = document.getElementById(`iconImage${i}`);
+
+        if (saveButton && iconImage) {
+            setupSaveButton(saveButton, iconImage, imageList);
+        }
+    }
+});
+
+function setupSaveButton(saveButton, iconImage, imageList) {
     let currentIndex = 0;
 
-    
     saveButton.addEventListener('click', function() {
         iconImage.src = imageList[currentIndex];
         currentIndex = (currentIndex + 1) % imageList.length;
     });
-});
+}
 
   
